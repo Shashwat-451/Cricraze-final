@@ -1,0 +1,147 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./font2/East\ Botany.otf);
+  
+
+
+}
+
+.card {
+   
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    width: 400px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    box-shadow: black;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+.card h4{
+  font-family: myFirstFont;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.card-img-top{
+  border-radius: 20px;
+  border-color: black;
+}
+.card a{
+  width: 120px;
+  padding: 5px;
+   margin: 5px;
+   background-color: #56a1db;
+   border-color:#00e5a2;
+  border-radius: 100px;
+  color: white;
+
+  font-family: myFirstFont;
+}
+
+header{
+  margin-top: 90px;background-color: whitesmoke ;
+ 
+
+}
+.head2{
+  
+  background-image: url(./images/background2.jpg);
+  align-items: center;
+  margin-top:125px ;
+  margin-bottom: 50px;
+  padding: 100px;
+}
+.head2 h1{
+  text-align: center;
+
+}
+.hh h1{
+  text-align: center;
+  padding-top: 100px;
+}
+.head2 button{
+ margin-left: 370px;
+ margin-top: 40px;
+ margin-bottom: 0px;
+}
+nav li {
+  font-family: myFirstFont;
+  font-size: 20px;
+}
+
+
+.container
+{
+  margin-bottom: 90px;
+  padding: 0px;
+  align-items: center;
+  margin-left: 100px;
+}
+header{
+  background-color:white;
+}
+header button{
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  width: 150px;
+  background-color: orangered;
+  border-radius: 100px;
+  border-color: orangered;
+}
+header h1{
+  color:white;font-family:myFirstFont;
+  padding-right: 80px;
+}
+
+
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+#Navbar li{
+    padding-left: 20px;
+}
+button{
+    padding: 100px;
+    color: black;
+    
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.collapse{
+    float: right;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  .navbar-nav a{
+
+    color: black;
+  }
