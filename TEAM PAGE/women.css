@@ -1,0 +1,168 @@
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(27,27,27);
+}
+h1{
+    padding-top: 25px;
+    color: white;
+  font-family: verdana;
+  font-size: 300%;
+    text-align: center
+    
+}
+
+.container{
+    display:flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+.card{
+    background: white;
+    width:360px;
+    margin:55px;
+    border-radius: 15px 15px 0 0;
+}
+.card-image{
+    height:180px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.car-1{
+    background-image: url('HARMAN.webp');
+}
+.car-2{
+    background-image: url('SMRITI.jpg');
+}
+.car-3{
+    background-image: url('POONAM1.jpg');
+}
+.car-4{
+  background-image: url('MEETALI1.jpg');
+}
+.car-5{
+  background-image: url('JHULAN.jpg');
+}
+.car-6{
+  background-image: url('DEEPTI.jpg');
+}
+.car-7{
+  background-image: url('PUNAM1.jpg');
+}
+.car-8{
+  background-image: url('SHAFALI.jpg');
+}
+.car-9{
+  background-image: url('RADHA.webp');
+}
+.car-10{
+  background-image: url('MANSI.jpg');
+}
+.car-11{
+  background-image: url('ARUNDHATI.jpg');
+}
+.car-12{
+  background-image: url('HARLEEN.png');
+}
+.car-13{
+  background-image: url('SAHA.jpg');
+}
+.car-14{
+  background-image: url('UMESH1.jpg');
+}
+.car-15{
+  background-image: url('BHUVI.jpg');
+}
+.car-16{
+  background-image: url('SHARDUL.jpg');
+}
+.car-17{
+  background-image: url('MAYAN.webp');
+}
+.car-18{
+  background-image: url('KULDEEP.webp');
+}
+.car-19{
+  background-image: url('NAVDEEP.jpg');
+}
+.car-20{
+  background-image: url('DEPAK.webp');
+}
+.car-22{
+  background-image: url('MAYAN.webp');
+}
+.car-21{
+  background-image: url('SHUBMAN.webp');
+}
+.car-23{
+  background-image: url('HANUMA.webp');
+}
+.car-24{
+  background-image: url('AXAR.png');
+}
+.car-25{
+  background-image: url('CHAH.jpg');
+}
+.car-26{
+  background-image: url('SIRAJ.webp');
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

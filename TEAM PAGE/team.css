@@ -1,0 +1,168 @@
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(27,27,27);
+}
+h1{
+    padding-top: 25px;
+    color: white;
+  font-family: verdana;
+  font-size: 300%;
+    text-align: center
+    
+}
+
+.container{
+    display:flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+.card{
+    background: white;
+    width:360px;
+    margin:55px;
+    border-radius: 15px 15px 0 0;
+}
+.card-image{
+    height:180px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.car-1{
+    background-image: url('virat.jpg');
+}
+.car-2{
+    background-image: url('ro.jpg');
+}
+.car-3{
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2019-12/27/full/1577470698-1812.jpg?im=Resize,width=480');
+}
+.car-4{
+  background-image: url('Ravi-Ashwin.jpg');
+}
+.car-5{
+  background-image: url('jaddu.jpg');
+}
+.car-6{
+  background-image: url('PUJARA.jpg');
+}
+.car-7{
+  background-image: url('rahane.webp');
+}
+.car-8{
+  background-image: url('https://i0.wp.com/wikiwiki.in/wp-content/uploads/2018/09/Shikhar-Dhawan-Crickter.jpg?fit=1280%2C720&ssl=1');
+}
+.car-9{
+  background-image: url('RAHUL.webp');
+}
+.car-10{
+  background-image: url('SHAMI.jpg');
+}
+.car-11{
+  background-image: url('ISHANT.jpg');
+}
+.car-12{
+  background-image: url('RISHAB.jpg');
+}
+.car-13{
+  background-image: url('SAHA.jpg');
+}
+.car-14{
+  background-image: url('UMESH1.jpg');
+}
+.car-15{
+  background-image: url('BHUVI.jpg');
+}
+.car-16{
+  background-image: url('SHARDUL.jpg');
+}
+.car-17{
+  background-image: url('MAYAN.webp');
+}
+.car-18{
+  background-image: url('KULDEEP.webp');
+}
+.car-19{
+  background-image: url('NAVDEEP.jpg');
+}
+.car-20{
+  background-image: url('DEPAK.webp');
+}
+.car-22{
+  background-image: url('MAYAN.webp');
+}
+.car-21{
+  background-image: url('Shubhman-Gill.jpg');
+}
+.car-23{
+  background-image: url('https://images.news18.com/ibnlive/uploads/2021/06/1623322729_hanuma-vihari.jpg');
+}
+.car-24{
+  background-image: url('https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/i9q2vhsr6e3djpov_1638007363.jpeg?tr=w-1200,h-900');
+}
+.car-25{
+  background-image: url('CHAH.jpg');
+}
+.car-26{
+  background-image: url('SIRAJ-1.jpg');
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

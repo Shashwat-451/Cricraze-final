@@ -6,7 +6,7 @@ $result=file_get_contents($url);
 //now json_decode converts all data from json format into arrays and store in result 
 $result=json_decode($result,true);
 echo "<pre>";
-//print_r($result);
+print_r($result);
 ?>
 
 
@@ -81,6 +81,8 @@ echo "<pre>";
 <?php
      echo "<p style='color:black;font-family:Times New Roman;font-size:20px;'>" .$result['articles'][0]['content'] . "</p>";
       ?>  
+
+      <a href="<?php $result['url'] ?>" ><button type="button">Read More</button></a>
 </div>
 
       </div>
@@ -117,9 +119,9 @@ echo "<pre>";
       <div class="row">
       <div class=" col-12">
       <?php
-     
+     if(isset($result['urlToImage'])){
      echo "<p style='color:red;font-family:Times New Roman;font-size:20px'>" .$result['articles'][3]['title'] . "</p>";
-      ?>  
+        }   ?>  
 </div>
 </div>
 
@@ -144,9 +146,9 @@ echo "<pre>";
       <div class="row">
       <div class=" col-12">
       <?php
-     
+      if (!empty($result['urlToImage'])){
      echo "<p style='color:red;font-family:Times New Roman;font-size:20px'>" .$result['articles'][4]['title'] . "</p>";
-      ?>  
+       }  ?>  
 </div>
 </div>
 
