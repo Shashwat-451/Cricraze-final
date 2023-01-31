@@ -41,7 +41,7 @@
               <li  class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="./score.html">Live Score</a></li>
               <li class="nav-item"><a class="nav-link" href="./Schedule.html">Schedule</a></li>
-              <li class="nav-item"><a class="nav-link" href="./Team.html">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="/team.html">Team</a></li>
               <li class="nav-item "><a class="nav-link" href="./ipl.html">IPL</a></li>
          
               <li class="nav-item"><a class="nav-link" href="./blogs.html">Blogs</a></li>
